@@ -9,7 +9,7 @@ part of 'product_model.dart';
 _$ProductModelImpl _$$ProductModelImplFromJson(Map<String, dynamic> json) =>
     _$ProductModelImpl(
       prop1: json['prop1'] as String,
-      prop2: json['prop2'] as String? ?? 'P3',
+      prop2: json['prop2'] as String? ?? 'P2',
       prop3: json['prop3'] as String?,
       prop4: json['prop4'] as String?,
     );

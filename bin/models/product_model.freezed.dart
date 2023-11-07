@@ -132,7 +132,7 @@ class __$$ProductModelImplCopyWithImpl<$Res>
 @JsonSerializable(includeIfNull: false)
 class _$ProductModelImpl implements _ProductModel {
   _$ProductModelImpl(
-      {required this.prop1, this.prop2 = 'P3', this.prop3, this.prop4});
+      {required this.prop1, this.prop2 = 'P2', this.prop3, this.prop4});
 
   factory _$ProductModelImpl.fromJson(Map<String, dynamic> json) =>
       _$$ProductModelImplFromJson(json);

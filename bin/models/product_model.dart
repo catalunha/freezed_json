@@ -8,7 +8,7 @@ abstract class ProductModel with _$ProductModel {
   @JsonSerializable(includeIfNull: false)
   factory ProductModel({
     required String prop1,
-    @Default('P3') String prop2,
+    @Default('P2') String prop2,
     String? prop3,
     String? prop4,
   }) = _ProductModel;
